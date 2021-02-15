@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel+Decorative&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cinzel Decorative', 'sans-serif';
     color: teal;
     line-height: 1.6;
 }
@@ -18,7 +18,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: white;
 }
 
 h1, h2 {
@@ -27,8 +27,17 @@ h1, h2 {
      margin: 10px 0;
 }
 
+h2 {
+    color: teal;
+}
+
 p {
     margin: 10 px 0;
+}
+
+::placeholder {
+    color:teal;
+    font-size: medium;
 }
 
 img {
@@ -77,8 +86,35 @@ img {
 }
 
 .showcase .grid {
+    overflow: visible;
     grid-template-columns: 55% 45%;
     gap: 30px;
+}
+
+.showcase-form{
+    position: relative;
+    top: 60 px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    justify-self: flex-end;
+}
+
+.showcase-form .form-control {
+    margin: 30px 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+    color: teal;
+    border: 0;
+    font-size: medium;
+    border-bottom: 1px solid white;
+}
+
+.showcase-form input:focus {
+    outline: none;
 }
 
 /* Utilities */
@@ -86,7 +122,25 @@ img {
     max-width: 1100px; 
     margin: 0 auto;
     overflow: auto;
-    padding: 0 40px;
+    padding: 0 40px; 
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10 px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 
 .flex {
