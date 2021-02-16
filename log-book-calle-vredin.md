@@ -1,3 +1,6 @@
+2021-02-16 kl 18:30
+La mycket tid på att försöka förstå API men har sedan ägnat tid åt att skapa innehåll och designat det utifrån samma grafiska formgivning som headern. 
+
 2021-02-15 kl 17:30
 Idag har jag lärt mig mer om flex och grid samt börjat skapa stommen i index.html och style.css.
 
