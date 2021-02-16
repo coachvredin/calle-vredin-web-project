@@ -105,16 +105,37 @@ img {
     margin: 30px 0;
 }
 
-.showcase-form input[type="text"],
-.showcase-form input[type="email"] {
+.showcase-form input[type='text'],
+.showcase-form input[type='email'] {
     color: teal;
     border: 0;
-    font-size: medium;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px
 }
 
 .showcase-form input:focus {
     outline: none;
+}
+
+.showcase::before, 
+.showcase::after {
+    content:'';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: white;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg); 
+    -moz-transform: skewY(-3deg); 
+    -ms-transform: skewY(-3deg); 
+}
+
+.stats {
+    padding-top: 100px;
 }
 
 /* Utilities */
@@ -133,7 +154,7 @@ img {
     margin: 10px;
 }
 
-.button {
+.btn {
     display: inline-block;
     padding: 10px 30px;
     cursor: pointer;
@@ -141,6 +162,15 @@ img {
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    transform: scale(0.98);
 }
 
 .flex {
@@ -151,7 +181,7 @@ img {
 }
 
 .grid {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
