@@ -1,3 +1,6 @@
+2021-02-17 kl 17:30
+Besvärlig dag, dagens planering gick i stöpet och jag gjorde om layouten efter diskussioner med kursare för att login-delen skulle bli enklare. Fick därmed göra om innehållet en del och rätt mycket CSS också.
+
 2021-02-16 kl 18:30
 La mycket tid på att försöka förstå API men har sedan ägnat tid åt att skapa innehåll och designat det utifrån samma grafiska formgivning som headern. 
 
