@@ -1,3 +1,6 @@
+2021-02-18 kl 17:30
+Idag blev det ingen kodning, jag har fått två negativa besked i veckan gällande praktikplatser så jag letade nya företag under förmiddagen. Efter lunch hann jag se några tutorials om API innan vi hade föreläsning kl 14 - 17.
+
 2021-02-17 kl 17:30
 Besvärlig dag, dagens planering gick i stöpet och jag gjorde om layouten efter diskussioner med kursare för att login-delen skulle bli enklare. Fick därmed göra om innehållet en del och rätt mycket CSS också.
 
