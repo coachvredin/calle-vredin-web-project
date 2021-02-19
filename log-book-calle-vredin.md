@@ -1,3 +1,6 @@
+2021-02-19 kl 18:30
+En dag med flera intressanta stickspår bestående av (ej relevanta för projektet tyvärr..) programmeringstutorials á la "casual Friday". MEN hann iaf lära mig fetch API någorlunda och adderade några enkla anrop längst ner på sidan. 
+
 2021-02-18 kl 17:30
 Idag blev det ingen kodning, jag har fått två negativa besked i veckan gällande praktikplatser så jag letade nya företag under förmiddagen. Efter lunch hann jag se några tutorials om API innan vi hade föreläsning kl 14 - 17.
 
