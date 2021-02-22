@@ -2,6 +2,8 @@ document.getElementById("getText").addEventListener("click", getText);
         document.getElementById("getUsers").addEventListener("click", getUsers);
         document.getElementById("getPosts").addEventListener("click", getPosts);
         document.getElementById("addPost").addEventListener("submit", addPost);
+        document.getElementById("getHighlights").addEventListener("click", getHighlights);
+        document.getElementById("getJobs").addEventListener("click", getJobs);
         
         //Printing sample.txt to console(V1 & 2) or site(V3, including error catching)
         function getText() {
@@ -48,7 +50,7 @@ document.getElementById("getText").addEventListener("click", getText);
             })
         }
 
-        //GET and printing posts from extern site.
+        //GET and printing posts from external site.
         function getPosts(){
             fetch("http://jsonplaceholder.typicode.com/posts")
             .then((res) => res.json())
@@ -83,4 +85,47 @@ document.getElementById("getText").addEventListener("click", getText);
             })
             .then((res) => res.json())
             .then((data) => console.log(data))
+        }
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://www.scorebat.com/embed/embed.js?v=arrv';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'scorebat-jssdk'));
+        
+        function getHighlights(){
+            fetch("https://www.scorebat.com/video-api/v1/")
+            .then((res) => res.json())
+            .then((data) => {
+                let output = "<h2>Most popular highlights</h2>";
+                data.forEach(function(highlight){
+                    output += `
+                        <div>
+                            <h3>${highlight.title}</h3>
+                            <p>${highlight.embed}</p>
+                        </div>
+                    `;
+                });
+                document.getElementById("output").innerHTML = output;
+            })
+        }
+
+        function getJobs(){
+            fetch("https://jobs.github.com/positions.json?description=python&location=new+york")
+            .then((res) => res.json())
+            .then((data) => {
+                let output = "<h2>Developer jobs in Sweden:</h2>";
+                data.forEach(function(job){
+                    output += `
+                        <div>
+                            <h3>${job.title}</h3>
+                            <h4>${job.company}</h4>
+                            <p>${job.description}</p>
+                        </div>
+                    `;
+                });
+                document.getElementById("output").innerHTML = output;
+            })
         }
