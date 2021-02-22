@@ -1,3 +1,6 @@
+2021-02-22 17:20
+Idag har det gått riktigt tungt. Jag förstår konceptet med API, enkla GET-requests men inte vad som händer under huven i fetch eller hur jag kan låta användaren POSTa eller hur jag kan ta den första enkla GET-requesten vidare. 
+
 2021-02-19 kl 18:30
 En dag med flera intressanta stickspår bestående av (ej relevanta för projektet tyvärr..) programmeringstutorials á la "casual Friday". MEN hann iaf lära mig fetch API någorlunda och adderade några enkla anrop längst ner på sidan. 
 
