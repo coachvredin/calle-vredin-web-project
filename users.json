@@ -13,5 +13,21 @@
         "id":3,
         "name": "Anders",
         "email": "anders@gmail.com"
+    },
+    {
+        "id":4,
+        "name": "Rebecka",
+        "email": "rebecka@gmail.com"
+    },
+    {
+        "id":5,
+        "name": "Frida",
+        "email": "frida@gmail.com"
+    },
+    {
+        "id":6,
+        "name": "David",
+        "email": "david@gmail.com"
     }
+
 ]

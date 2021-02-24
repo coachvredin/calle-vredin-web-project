@@ -1,1 +1,1 @@
-This is a test-text printing from a local .txt-file through fetch API. 
+It doesn't make sense to hire smart people and then tell them what to do. We hire smart people so they can tell us what to do. - Steve Jobs
