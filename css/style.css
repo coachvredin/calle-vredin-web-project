@@ -60,7 +60,7 @@ img {
 .navbar a {
     color: white;
     padding: 10px;
-    margin: 0 5px; 
+    margin: 0 5px;
 } 
 
 .navbar a:hover{
@@ -74,6 +74,7 @@ img {
 /* Stats section */
 .stats {
     padding-top: 100px;
+    animation: slideInTop 1s ease-in;
 }
 
 .stats-heading {
@@ -103,6 +104,14 @@ img {
     grid-template-columns: 50% 50%;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.login-form {
+    animation: slideInLeft 1s ease-in;
+}
+
+.signup-form {
+    animation: slideInRight 1s ease-in;
 }
 
 .login-form, .signup-form {
@@ -240,12 +249,21 @@ img {
 }
 
 /* About */
+.about {
+    animation: slideInTop 1s ease-in;
+}
+
+
 .about img{
     width: 200px;
     border-radius: 50%;
 }
 
 /* Logged in */
+.loggedin {
+    animation: slideInTop 1s ease-in;
+}
+
 .loggedin p,
 #seeUsers {
     margin-bottom: 25px;
@@ -261,8 +279,38 @@ img {
     width: 40px;
 } 
 
+/* Animations */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
 /* Tablets */
-@media (max-width: 768px){
+@media (max-width: 992px){
     .grid,
     .stats .grid {
         grid-template-columns: 1fr;
