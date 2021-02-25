@@ -1,8 +1,11 @@
+2021-02-25 19:00
+Idag har jag lagt till animationer, korrekturläst koden och läst på kring användbarhet (inklusive justerat koden). Även planerat inför inspelningen av projektet. 
+
 2021-02-24 19:30
 Idag repeterade det jag lärde mig om API igår och sedan finjusterat struktur, design och innehåll i HTML och CSS så programmet ser färdigt ut. 
 
 2021-02-23 17:30
-Missade att skriva detta i loggboken (uppdaterat 24/2); fick jag ordning på API i teorin, förutom anropet till jobs.github.com som jag gick igenom med Gustav. Lärde mig om async, await och promise. Väldigt skönt. 
+Missade att skriva detta i loggboken (uppdaterat 24/2); idag fick jag ordning på API i teorin och tillämpat det, förutom anropet till jobs.github.com som jag gick igenom med Gustav. Lärde mig om async, await och promise. Väldigt skönt att börja greppa det. Fick repetera lite kring HTTPS också. 
 
 2021-02-22 17:20
 Idag har det gått riktigt tungt. Jag förstår konceptet med API, enkla GET-requests men inte vad som händer under huven i fetch eller hur jag kan låta användaren POSTa eller hur jag kan ta den första enkla GET-requesten vidare. 
