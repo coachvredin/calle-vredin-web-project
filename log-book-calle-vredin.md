@@ -4,7 +4,7 @@ Jag blir ofta överväldigad av alla begrepp och teorier men som du sagt på lek
 Nätverksdelen och förstå allt med HTTPS osv, det som sker bakom API-anrop har nog varit det svåraste hittills. Annars går det någorlunda bra att lära sig logiken men behöver kämpa mycket med att lära mig syntaxen.
 Jag är nöjd med anpassningen till storleken på skärmen och att strukturen på min sida blev rätt bra med klasser som återanvändes.
 Funktioner som jag kommer lära mig i efterhand är att ge mig på inloggning, mer avancerade animationer & APIer samt React. Men jag är nöjd att jag till slut fick till API-anropen och förstod alla delar bakom till slut. Jag ska också testa mer på andra anrop än GET och POST och kanske till och med kombinera flera APIer. Postman vill jag också lära mig.
-Jag märkte under arbetet att jag tyckte användbarhet var betydligt roligare IRL Det läste jag på rätt mycket extra. Jag har också haft stor nytta av att lära mig arbetsflödet att sätta upp ett projekt i Github och koppla till IDEn.
+Jag märkte under arbetet att jag tyckte användbarhet var betydligt roligare IRL Det läste jag på rätt mycket extra. Jag har också haft stor nytta av att lära mig arbetsflödet att sätta upp ett projekt i Github och koppla till IDEn. I nästa projekt kommer jag försöka göra mer specifika issues, lösa respektive issue enskilt och commita så fort jag är klar/gjort någon större ändring. När jag läsera mina egma commits i efterhand blir det tydligt att jag hoppar runt för mycket i koden och committar för sällan. 
 
 ## 2021-02-26 15:00
 KLAR! Sista dagen har jag ägnat åt att gå igenom allting en sista gång, gjort några sista väldigt små ändringar i koden (mest formatterat mellanslag osv), skriva stödpunkter till redovisningen och filma. 
