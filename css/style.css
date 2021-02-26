@@ -33,7 +33,7 @@ h2 {
 }
 
 p {
-    margin: 10 px 0;
+    margin: 10px 0;
     font-size:larger;
 }
 
@@ -326,9 +326,5 @@ img {
 
     .navbar .flex{
         flex-direction: column;
-    }
-
-    .navbar ul {
-        padding: 10px;
     }
 }
